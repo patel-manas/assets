@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Email Client</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="filters">
+        <div>Filter By:</div>
+        <div class="unread">Unread</div>
+        <div class="read slected">Read</div>
+        <div class="fav">Favourites</div>
+      </header>
+      <main>
+        <span class="loader-msg">Loading Emails...</span>
+        <section class="email__list">
+          <ul>
+            <!-- <li class="email">
+              <div class="email__card">
+                <div class="email__avatar">F</div>
+                <div class="email__details">
+                  <div class="from">
+                    From: <strong>Foo Bar &lt;foo.bar@gmail.com&gt;</strong>
+                  </div>
+                  <div class="subject">
+                    Subject: <strong>lorem Ipsum</strong>
+                  </div>
+                  <div class="body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quod, beatae fuga? In est odit totam veniam, necessitatibus
+                    voluptate ipsa dolores recusandae velit ab autem mollitia
+                    sunt ad perferendis commodi iste.
+                  </div>
+                  <div class="timestamp">26/02/2020 10:30am</div>
+                  <div class="fav-btn">favourite</div>
+                </div>
+              </div>
+            </li>
+            <li class="email"></li>
+            <li class="email"></li> -->
+          </ul>
+        </section>
+        <!-- <section class="email__body"></section> -->
+      </main>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+// sectors
+
+const emailContainer = document.querySelector(".email__list ul");
+const loader = document.querySelector(".loader-msg");
+// variables
+const isLoading = true;
+
+// main
+const loadEmails = (page = 1) => {
+  
+} 
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #e54065;
+  --bg: #f4f5f9;
+  --border: #cfd2dc;
+  --text: #636363;
+  --filterbtn: #e1e4ea;
+  --readbg: #f2f2f2;
+}
+
+html {
+  font-size: 16px;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--bg);
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+header.filters {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
+}
+
+header.filters .slected {
+  background-color: var(--readbg);
+}
+
+main {
+  width: 100%;
+}
+
+.email__list {
+  width: 100%;
+}
+
+.email__list ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.email__list ul li.email {
+  width: 90%;
+  height: 150px;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+li.email .email__card {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+li.email .email__card .email__avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--accent);
+  margin: 0 1rem;
+}
+
+li.email .email__card .email__details {
+}
+
+li.email .email__card .email__details div {
+  margin-bottom: 0.5rem;
+}
+
+li.email .email__card .email__details div.subject {
+  margin-bottom: 1rem;
+}
+
+li.email .email__card .email__details div.subject {
+  margin-bottom: 1rem;
+}
+
+li.email .email__card .email__details div.fav-btn {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: bold;
+}
