@@ -1,0 +1,60 @@
+{
+    "technologies": [
+      {
+        "name": "React",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Javascript",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Typescript",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "HTML5",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "CSS3",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "Angularjs",
+        "proficiency": "neutral"
+      },
+      {
+        "name": "Nodejs",
+        "proficiency": "neutral"
+      },
+      {
+        "name": "postgresql",
+        "proficiency": "neutral"
+      },
+      {
+        "name": "Python",
+        "proficiency": "beginer"
+      },
+      {
+        "name": "MongoDB",
+        "proficiency": "beginer"
+      },
+      {
+        "name": "googlecloud",
+        "proficiency": "beginer"
+      },
+      {
+        "name": "github",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "vscode",
+        "proficiency": "Expert"
+      },
+      {
+        "name": "jira",
+        "proficiency": "Expert"
+      }
+    ]
+  }
