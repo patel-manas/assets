@@ -1,0 +1,55 @@
+{
+    "socials": [
+      {
+        "url": "https://www.linkedin.com/in/manas-patel",
+        "fgColor": "grey",
+        "bgColor": "transparent"
+      },
+      {
+        "url": "https://twitter.com/manaspatel_",
+        "fgColor": "grey",
+        "bgColor": "transparent"
+      },
+      {
+        "url": "https://www.instagram.com/im_manas_45/",
+        "fgColor": "grey",
+        "bgColor": "transparent"
+      },
+      {
+        "url": "https://github.com/patel-manas",
+        "fgColor": "grey",
+        "bgColor": "transparent"
+      },
+      {
+        "url": "",
+        "network": "email",
+        "fgColor": "grey",
+        "bgColor": "transparent"
+      }
+    ],
+    "role": "frontend engineer",
+    "heroImage": "https://letarior.sirv.com/Images/wonder_1676279095735.jpg",
+    "taglines": [
+      "Hi!, I am Manas.",
+      "Crafting the modern Apps",
+      "React-ing to the web."
+    ],
+    "links": [
+      {
+        "displayText": "about",
+        "url": "about"
+      },
+      {
+        "displayText": "experience",
+        "url": "experience"
+      },
+      {
+        "displayText": "skills",
+        "url": "skills"
+      },
+      {
+        "displayText": "projects",
+        "url": "projects"
+      }
+    ]
+  }
