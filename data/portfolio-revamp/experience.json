@@ -1,0 +1,63 @@
+[
+    {
+      "title": "Senior Software Engineer - Frontend",
+      "comapanyName": "Coinbase",
+      "comapanyImg": "https://letarior.sirv.com/Images/logos/brand-coinbase-logo.webp",
+      "skills": ["React", "Typescript", "Python", "googlecloud", "postgresql"],
+      "tenure": {
+        "from": "May, 2022",
+        "to": "Feb, 2023"
+      },
+      "summary": [
+        "Led the design of a bot maker, a visual tool for building bot workflows saving ~$10m per year in expenses.",
+        "Designed and developed internal apps to aid ML/DS engineers in managing their ML models resulting in better DX and reducing repeated manual work.",
+        "Led the design and development of a graph database on the AWS cloud POC , which would have been a one stop solution for block chain data at company level."
+      ]
+    },
+    {
+      "title": "Software Engineer III - Frontend",
+      "comapanyName": "Walmart Labs",
+      "comapanyImg": "https://letarior.sirv.com/Images/logos/5StAbRHLA4ZdyzQZVivm2c.jpg",
+      "skills": ["React", "Typescript", "graphql", "Nodejs"],
+      "tenure": {
+        "from": "Nov, 2020",
+        "to": "Apr, 2022"
+      },
+      "summary": [
+        "Designed and Implemented BFF architecture with React.js, Node.js and GraphQL to address all API needs for both web and mobile resulting 50% of configuration bugs and seamless integration.",
+        "Enriched the Ad platform for ASDA.COM by quickly implementing various advertisements from PM's which later on resulted in ~20% revenue growth from Ad's."
+      ]
+    },
+    {
+      "title": "Software Engineer II - Frontend",
+      "comapanyName": "Cisco Systems India Pvt. Ltd.",
+      "comapanyImg": "https://letarior.sirv.com/Images/logos/download.png",
+      "skills": ["React", "Javascript", "Jquery", "Typescript"],
+      "tenure": {
+        "from": "Oct, 2019",
+        "to": "Nov, 2011"
+      },
+      "summary": [
+        "Upgraded existing app by migrating legacy code to React.js with Redux, hooks, and modern tools",
+        "Developed a framework for visualizing device tree using React, HTML canvas, and libraries such as GoJS",
+        "Boosted site loading speed by 30% using techniques such as Lazy Loading, Pure Components, and sprite optimization",
+        "Maintained high code quality through practices such as TDD and peer reviews, resulting in fewer Sonar code smells."
+      ]
+    },
+    {
+      "title": "System Engineer",
+      "comapanyName": "TCS",
+      "comapanyImg": "https://letarior.sirv.com/Images/logos/Logo.svg",
+      "skills": ["Angularjs", "React", "Typescript", "MongoDB", "Docker"],
+      "tenure": {
+        "from": "Aug, 2016",
+        "to": "Oct, 2019"
+      },
+      "summary": [
+        "Developed advanced UI screens with robust data support for Excel-like functionality",
+        "Implemented global state management using Angular and Ngrx",
+        "Utilized modern scripting and ES6 features with TypeScript to reduce errors",
+        "Created reusable components and utilities for consistent design across the application."
+      ]
+    }
+  ]
