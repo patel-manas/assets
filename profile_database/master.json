@@ -2,18 +2,20 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Manas Patel",
-    "label": "Senior Frontend Engineer / Full-Stack Platform Engineer",
+    "label": "Senior Frontend Engineer / Platform Engineer",
     "image": "",
     "email": "er.manaspatel@gmail.com",
     "phone": "(+91) 9437766389",
     "url": "https://github.com/patel-manas",
-    "summary": "Senior Frontend Engineer with over 8 years of experience architecting high-scale single-page applications, UI platforms, micro-frontends, and distributed frontend systems across global tech leaders including Atlassian, Apollo.io, Coinbase, Walmart Labs, and Cisco. Specialized in React.js, TypeScript, Next.js, and performance engineering with proven impact driving multi-million dollar cost reductions and optimizing web vitals.",
+    "summary": "Senior Frontend Engineer with over 8 years of experience architecting high-scale single-page applications, UI platforms, micro-frontends, and distributed systems across global tech leaders including Atlassian, Apollo.io, Coinbase, Walmart Labs, and Cisco. Specialized in React.js, TypeScript, Next.js, and web performance optimization.",
+    "aboutMe": "Meet Manas Patel, a software engineer with a passion for building elegant and efficient web applications. Originally from Sundargarh, Manas calls Bangalore home. He attended Orissa Engineering College where he honed his skills and began his journey as a frontend developer, building systems across TCS, Cisco, Walmart, Coinbase, Apollo.io, and Atlassian.",
     "location": {
       "address": "Hoodi",
       "postalCode": "560037",
       "city": "Bengaluru",
       "region": "Karnataka",
-      "countryCode": "IN"
+      "countryCode": "IN",
+      "origin": "Sundargarh, Odisha, India"
     },
     "profiles": [
       {
@@ -48,10 +50,10 @@
       "url": "https://www.atlassian.com",
       "startDate": "2024-09",
       "endDate": null,
-      "summary": "Building and scaling core enterprise frontend products and distributed UI platform capabilities.",
+      "summary": "Engineering scalable UI platforms and distributed micro-frontend features.",
       "highlights": [
-        "Architecting robust UI components and high-reliability frontend features across distributed cloud products.",
-        "Driving developer experience (DX), modern tooling adoption, and rigorous code quality across cross-functional pods."
+        "Architecting robust UI components and resilient web systems across distributed cloud products.",
+        "Driving developer experience (DX), build system tooling, and testing best practices across feature pods."
       ],
       "technologies": [
         "React",
@@ -67,13 +69,13 @@
       "url": "https://www.apollo.io",
       "startDate": "2023-04",
       "endDate": "2024-09",
-      "summary": "Frontend platform engineering focused on build pipeline performance, Core Web Vitals optimization, and test automation.",
+      "summary": "Frontend platform engineering focused on build pipeline performance, Core Web Vitals, and test automation.",
       "highlights": [
-        "Optimized frontend build pipelines by configuring Webpack and SWC, slashing build times by 20% and streamlining CI pipelines to reduce deployment time by 30%.",
-        "Reduced production bundle sizes by 25% through advanced code-splitting and tree-shaking, improving First Contentful Paint (FCP) and Largest Contentful Paint (LCP) by 10%.",
-        "Led enterprise version upgrade from React 16.x to 17.x, modernizing dependency management and DX while reducing user churn.",
-        "Architected end-to-end frontend code coverage framework from scratch using Cypress.",
-        "Integrated New Relic telemetry dashboards for real-time frontend static metrics, error tracking, and performance monitoring."
+        "Optimized frontend build pipelines by configuring Webpack and SWC, slashing build times by 20% and deployment time by 30%.",
+        "Reduced bundle sizes by 25%, improving First Contentful Paint (FCP) and Largest Contentful Paint (LCP) by 10%.",
+        "Led version migration from React 16.x to 17.x, modernizing dependencies and improving developer ergonomics.",
+        "Engineered end-to-end frontend code coverage infrastructure from scratch using Cypress.",
+        "Deployed New Relic dashboards for real-time frontend static analysis, telemetry, and error tracking."
       ],
       "technologies": [
         "React.js",
@@ -92,11 +94,11 @@
       "url": "https://www.coinbase.com",
       "startDate": "2022-05",
       "endDate": "2023-02",
-      "summary": "Engineered workflow automation tools, ML platform interfaces, and enterprise cloud data architectures.",
+      "summary": "Engineered workflow automation platforms, ML infrastructure interfaces, and graph data architectures.",
       "highlights": [
-        "Led the frontend architecture of Bot Maker, an interactive visual workflow builder that automated complex business processes and saved ~$10M annually in operational expenses.",
-        "Designed and deployed internal developer platforms enabling Machine Learning and Data Science engineers to register, deploy, and monitor ML models with reduced manual overhead.",
-        "Spearheaded the design and POC development of an AWS Neptune graph database to evaluate centralized, high-throughput blockchain data indexing at company scale."
+        "Architected frontend for Bot Maker, a visual drag-and-drop workflow canvas saving ~$10M per year in operational costs.",
+        "Built internal tools enabling Machine Learning engineers to register, deploy, and inspect ML models, eliminating repeated manual tasks.",
+        "Spearheaded design and POC development of an AWS Neptune graph database to unify enterprise blockchain data indexing."
       ],
       "technologies": [
         "React.js",
@@ -113,13 +115,13 @@
       "url": "https://www.groceries.asda.com",
       "startDate": "2020-11",
       "endDate": "2022-05",
-      "summary": "Full-stack frontend and API layer engineering for global e-commerce platform Asda.com.",
+      "summary": "Full-stack frontend and API layer engineering for global retail platform Asda.com.",
       "highlights": [
-        "Designed and implemented Backend-for-Frontend (BFF) aggregator architecture using React.js, Node.js, and GraphQL, cutting configuration bugs by 50% across web and mobile surfaces.",
-        "Partnered with PMs to rapid-prototype and deliver monetization widgets on the ASDA.COM ad platform, driving ~20% incremental revenue growth from digital ads.",
-        "Architected state flows using Redux and Redux Reselect selectors for performant client-side data caching.",
-        "Maintained and expanded the in-house UI component library ensuring visual uniformity and mobile-first accessibility across checkout and product catalogs.",
-        "Drove massive automated test coverage expansion across frontend services utilizing Jest and Enzyme."
+        "Designed and implemented Backend-for-Frontend (BFF) aggregator architecture using React.js, Node.js, and GraphQL, reducing configuration bugs by 50%.",
+        "Developed dynamic ad components for the ASDA.COM ad platform, driving ~20% incremental revenue growth from digital placements.",
+        "Managed global state caching using Redux and Redux-Reselect memoized selectors.",
+        "Expanded the in-house design system UI library to ensure mobile-first accessibility across checkout workflows.",
+        "Scaled unit testing coverage across services using Jest and Enzyme to minimize production defects."
       ],
       "technologies": [
         "React.js",
@@ -140,14 +142,13 @@
       "url": "https://www.cisco.com",
       "startDate": "2019-10",
       "endDate": "2020-11",
-      "summary": "Core UI platform engineering on the Cisco DNA Spaces / DNA-C enterprise network management platform.",
+      "summary": "Enterprise UI platform development for the Cisco DNA-C network management dashboard.",
       "highlights": [
-        "Engineered reusable UI plugins and micro-frontend widgets for the DNA-C platform consumed across multiple independent engineering teams.",
-        "Migrated legacy Backbone/jQuery codebase to modern React.js with Redux, custom Hooks, and modern transpilation tooling.",
-        "Developed interactive, large-scale network device tree topology visualizers using React, HTML5 Canvas, and GoJS.",
-        "Accelerated page loading speed by 30% via route-based lazy loading, React.PureComponent memoization, and image sprite optimizations.",
-        "Established strict TDD workflows and SonarQube quality gates during peer reviews, drastically minimizing technical debt and code smells.",
-        "Contributed to platform modernization initiatives evaluating React monorepos and micro-frontend architectures to decrease initial bundle overhead."
+        "Engineered reusable UI plugins and micro-frontend modules for the DNA-C platform across distributed engineering teams.",
+        "Migrated legacy Backbone/jQuery code to modern React.js with Redux and Hooks.",
+        "Developed interactive device tree topology visualizers using React, HTML5 Canvas, and GoJS.",
+        "Boosted page load speeds by 30% utilizing route-based lazy loading, React.PureComponent memoization, and sprite optimizations.",
+        "Enforced TDD standards and SonarQube quality gates during peer reviews to reduce code smells."
       ],
       "technologies": [
         "React.js",
@@ -175,11 +176,10 @@
       "endDate": "2019-10",
       "summary": "Enterprise UI development for Marks & Spencer Retail Product Planning (WSSI) platform.",
       "highlights": [
-        "Developed complex data-intensive enterprise screens supporting multi-cell calculations, filtering, and Excel-like bulk operations.",
-        "Implemented predictable global application state management using Angular and NgRx store architecture.",
-        "Wrote clean, modular frontend services following the official Angular Style Guide, integrating TypeScript and ES6 patterns.",
-        "Constructed reusable cross-team component libraries and design utilities to maintain consistent UI standards across product planning workflows.",
-        "Managed enterprise CI/CD integration, branching models, and release pipelines using Git and GitHub."
+        "Developed complex data-dense screens supporting multi-cell computations and spreadsheet-like operations.",
+        "Implemented predictable global client state management using Angular and NgRx.",
+        "Constructed reusable cross-team component libraries and design utilities following the Angular Style Guide.",
+        "Managed source control, CI/CD integration, and release branches using Git and GitHub."
       ],
       "technologies": [
         "Angular",
@@ -215,21 +215,15 @@
   "certificates": [
     {
       "name": "Programming in HTML5 with JavaScript and CSS3",
-      "date": "",
-      "issuer": "Microsoft",
-      "url": ""
+      "issuer": "Microsoft"
     },
     {
       "name": "Angular 7 - The Complete Guide",
-      "date": "",
-      "issuer": "Udemy",
-      "url": ""
+      "issuer": "Udemy"
     },
     {
       "name": "React Hooks",
-      "date": "",
-      "issuer": "Udemy / Online",
-      "url": ""
+      "issuer": "Udemy / Online"
     }
   ],
   "skills": [
@@ -258,12 +252,11 @@
         "NgRx",
         "Redux-Reselect",
         "Redux-Thunk",
-        "Backbone.js",
         "Node.js"
       ]
     },
     {
-      "name": "Data Architecture & APIs",
+      "name": "Databases & APIs",
       "level": "Advanced",
       "keywords": [
         "GraphQL",
@@ -277,28 +270,27 @@
       ]
     },
     {
-      "name": "Build Tools & Developer Productivity",
+      "name": "Tooling, Editors & Platforms",
       "level": "Expert",
       "keywords": [
+        "VS Code",
         "Webpack",
         "SWC",
         "Vite",
-        "Babel",
-        "Micro-frontends",
-        "Monorepos",
         "Git",
         "GitHub Actions",
-        "Jenkins"
+        "Micro-frontends",
+        "Monorepos"
       ]
     },
     {
-      "name": "Testing, Quality & Monitoring",
+      "name": "Testing & Observability",
       "level": "Expert",
       "keywords": [
         "Cypress",
         "Jest",
         "Enzyme",
-        "Test-Driven Development (TDD)",
+        "TDD",
         "SonarQube",
         "New Relic",
         "Stylelint"
@@ -328,45 +320,6 @@
     {
       "language": "Oriya",
       "fluency": "Native or Bilingual"
-    }
-  ],
-  "projects": [
-    {
-      "name": "ASDA Groceries Ad Platform & BFF",
-      "description": "Engineered the API aggregation tier and dynamic ad integration pipeline for Asda.com, driving double-digit monetization growth.",
-      "highlights": [
-        "Architected Node/GraphQL BFF layer reducing configuration anomalies by 50%.",
-        "Delivered ad revenue improvements of ~20% through reusable promo components."
-      ],
-      "keywords": ["React.js", "GraphQL", "Node.js", "Tempo CMS"],
-      "url": "https://www.groceries.asda.com"
-    },
-    {
-      "name": "Internal Bot Maker Workflow Studio",
-      "description": "Visual drag-and-drop orchestration canvas for building and deploying automated conversational bots.",
-      "highlights": [
-        "Directly reduced customer support and operational expenditure by ~$10M per year."
-      ],
-      "keywords": ["React.js", "TypeScript", "Python", "Airflow"],
-      "url": ""
-    },
-    {
-      "name": "Cisco DNA-C Topology Visualizer",
-      "description": "High-performance dynamic visual rendering engine for enterprise network node topology trees.",
-      "highlights": [
-        "Rendered large-scale node graphs with interactive canvas layers using GoJS and React."
-      ],
-      "keywords": ["React", "HTML5 Canvas", "GoJS", "Micro-frontends"],
-      "url": ""
-    },
-    {
-      "name": "Marks & Spencer WSSI Retail Planning",
-      "description": "High-throughput spreadsheet-like grid system for merchandising planning and inventory budgeting.",
-      "highlights": [
-        "Implemented high-density reactive data grids powered by Angular and NgRx."
-      ],
-      "keywords": ["Angular", "NgRx", "TypeScript", "SQL Server"],
-      "url": "https://www.marksandspencer.com"
     }
   ]
 }
