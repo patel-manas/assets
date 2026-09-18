@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Manas Patel",
-    "label": "Senior Frontend Engineer / Platform Engineer",
+    "name": "Manas Ranjan Patel",
+    "label": "Senior Frontend Engineer / UI Platform Architect",
     "image": "",
     "email": "er.manaspatel@gmail.com",
     "phone": "(+91) 9437766389",
     "url": "https://github.com/patel-manas",
-    "summary": "Senior Frontend Engineer with over 8 years of experience architecting high-scale single-page applications, UI platforms, micro-frontends, and distributed systems across global tech leaders including Atlassian, Apollo.io, Coinbase, Walmart Labs, and Cisco. Specialized in React.js, TypeScript, Next.js, and web performance optimization.",
+    "summary": "Senior Frontend Engineer (P50) with over 8 years of experience building high-scale distributed frontend platforms, server-side rendering (SSR) architectures, and enterprise design systems across Atlassian, Apollo.io, Coinbase, Walmart Labs, and Cisco. Proven expertise leading multi-team architectural decisions (DACI), edge-authenticated rendering, and performance optimization for critical incident communication systems.",
     "aboutMe": "Meet Manas Patel, a software engineer with a passion for building elegant and efficient web applications. Originally from Sundargarh, Manas calls Bangalore home. He attended Orissa Engineering College where he honed his skills and began his journey as a frontend developer, building systems across TCS, Cisco, Walmart, Coinbase, Apollo.io, and Atlassian.",
     "location": {
       "address": "Hoodi",
@@ -46,21 +46,29 @@
   "work": [
     {
       "name": "Atlassian",
-      "position": "Senior Frontend Engineer",
+      "position": "Senior Frontend Engineer (P50)",
       "url": "https://www.atlassian.com",
       "startDate": "2024-09",
       "endDate": null,
-      "summary": "Engineering scalable UI platforms and distributed micro-frontend features.",
+      "summary": "Leading frontend architecture and delivery for Jira Service Management (JSM) Status Pages, edge-rendered SSR surfaces, and incident communication platforms.",
       "highlights": [
-        "Architecting robust UI components and resilient web systems across distributed cloud products.",
-        "Driving developer experience (DX), build system tooling, and testing best practices across feature pods."
+        "Spearheaded the end-to-end architecture and GA rollout of JSM Status Pages across Jira Manage Portal, issue views, and public/private SSR surfaces, scaling adoption to 163+ enterprise tenants.",
+        "Authored the architectural DACI for StatusPage rendering, establishing the company's first public Tesseract SSR implementation with Varnish caching, CloudFront, and Bifrost to eliminate rebuild latency during live incidents.",
+        "Architected fail-closed auth/cache isolation for Private Status Pages using Edge authentication, SCIM group tokens, and user-context headers, preventing private incident data exposure across public CDNs.",
+        "Built frontend integration flows for AI Suggest Stakeholders, reaching a ~61% suggestion-to-add rate across ~80 tenants (outperforming the 15–30% company baseline).",
+        "Streamlined Safe Release pipeline configurations by 84% (from 93 to ~15 lines) and modernized runtimes by upgrading Node to 20.15.1, resolving 10+ critical CVEs.",
+        "Active participant in DoS/On-call rotations resolving P1 live-site alerts; scaled cross-team architecture knowledge through IT-Ops enablement and technical mentorship."
       ],
       "technologies": [
         "React",
         "TypeScript",
-        "Micro-frontends",
-        "Design Systems",
-        "CI/CD"
+        "Tesseract SSR",
+        "Bifrost",
+        "Varnish Caching",
+        "CloudFront",
+        "Edge Auth",
+        "Spinnaker / SafeRelease",
+        "Node.js 20"
       ]
     },
     {
@@ -228,6 +236,20 @@
   ],
   "skills": [
     {
+      "name": "Frontend Architecture & Rendering",
+      "level": "Master",
+      "keywords": [
+        "React.js",
+        "Next.js",
+        "Server-Side Rendering (SSR)",
+        "Tesseract SSR",
+        "Edge Authentication",
+        "Varnish Caching",
+        "Micro-frontends",
+        "DACI Framework"
+      ]
+    },
+    {
       "name": "Languages & Core Web",
       "level": "Master",
       "keywords": [
@@ -270,17 +292,17 @@
       ]
     },
     {
-      "name": "Tooling, Editors & Platforms",
+      "name": "Tooling, CI/CD & Reliability",
       "level": "Expert",
       "keywords": [
-        "VS Code",
+        "SafeRelease",
+        "Spinnaker",
         "Webpack",
         "SWC",
         "Vite",
         "Git",
         "GitHub Actions",
-        "Micro-frontends",
-        "Monorepos"
+        "Incident On-Call (DoS)"
       ]
     },
     {
@@ -297,9 +319,11 @@
       ]
     },
     {
-      "name": "Cloud & Infrastructure",
+      "name": "Cloud & Edge Infrastructure",
       "level": "Intermediate",
       "keywords": [
+        "CloudFront",
+        "Varnish",
         "Docker",
         "Kubernetes",
         "AWS",
@@ -320,6 +344,64 @@
     {
       "language": "Oriya",
       "fluency": "Native or Bilingual"
+    }
+  ],
+  "projects": [
+    {
+      "name": "JSM Status Pages (Public & Private)",
+      "description": "Unified stakeholder incident communication platform built with high-throughput SSR, Edge authorization, and custom styling containment.",
+      "highlights": [
+        "Adopted by 163 enterprise tenants with 48 creating active pages.",
+        "Architected edge-authenticated caching layer to safely isolate private incident communication without CDN data leaks."
+      ],
+      "keywords": ["React", "Tesseract SSR", "CloudFront", "Varnish", "Bifrost"],
+      "url": "https://www.atlassian.com"
+    },
+    {
+      "name": "AI Suggest Stakeholders",
+      "description": "Smart communication workflow integration suggesting incident responders and stakeholders.",
+      "highlights": [
+        "Achieved ~61% suggestion-to-add rate across ~80 tenants, doubling internal adoption benchmarks."
+      ],
+      "keywords": ["AI Gateway", "React", "ICC Comms"],
+      "url": ""
+    },
+    {
+      "name": "ASDA Groceries Ad Platform & BFF",
+      "description": "Engineered the API aggregation tier and dynamic ad integration pipeline for Asda.com, driving double-digit monetization growth.",
+      "highlights": [
+        "Architected Node/GraphQL BFF layer reducing configuration anomalies by 50%.",
+        "Delivered ad revenue improvements of ~20% through reusable promo components."
+      ],
+      "keywords": ["React.js", "GraphQL", "Node.js", "Tempo CMS"],
+      "url": "https://www.groceries.asda.com"
+    },
+    {
+      "name": "Internal Bot Maker Workflow Studio",
+      "description": "Visual drag-and-drop orchestration canvas for building and deploying automated conversational bots.",
+      "highlights": [
+        "Directly reduced customer support and operational expenditure by ~$10M per year."
+      ],
+      "keywords": ["React.js", "TypeScript", "Python", "Airflow"],
+      "url": ""
+    },
+    {
+      "name": "Cisco DNA-C Topology Visualizer",
+      "description": "High-performance dynamic visual rendering engine for enterprise network node topology trees.",
+      "highlights": [
+        "Rendered large-scale node graphs with interactive canvas layers using GoJS and React."
+      ],
+      "keywords": ["React", "HTML5 Canvas", "GoJS", "Micro-frontends"],
+      "url": ""
+    },
+    {
+      "name": "Marks & Spencer WSSI Retail Planning",
+      "description": "High-throughput spreadsheet-like grid system for merchandising planning and inventory budgeting.",
+      "highlights": [
+        "Implemented high-density reactive data grids powered by Angular and NgRx."
+      ],
+      "keywords": ["Angular", "NgRx", "TypeScript", "SQL Server"],
+      "url": "https://www.marksandspencer.com"
     }
   ]
 }
