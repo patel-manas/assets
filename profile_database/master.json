@@ -1,0 +1,234 @@
+{
+"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+"basics": {
+"name": "Manas Patel",
+"label": "Senior Frontend Engineer & UI Platform Engineer",
+"image": "",
+"email": "er.manaspatel@gmail.com",
+"phone": "+91 9437766389",
+"url": "https://www.linkedin.com/in/manas-patel/",
+"summary": "Senior Frontend & UI Platform Engineer with 8+ years of experience architecting high-scale enterprise SPAs and micro-frontend platforms. Proven track record across tier-1 product and fintech companies (Atlassian, Apollo.io, Coinbase, Walmart Labs, Cisco) leading core developer experience (DX) initiatives, optimizing complex Webpack/SWC build pipelines, and shipping enterprise-grade web applications. Deep expertise in React, TypeScript, state management, web performance optimization, and distributed frontend platforms.",
+"headline": "Senior Frontend Engineer @ Atlassian | Ex-Apollo.io, Coinbase, Walmart, Cisco | Web Performance, UI Platforms & Micro-Frontends",
+"location": {
+"address": "",
+"postalCode": "",
+"city": "Bengaluru",
+"countryCode": "IN",
+"region": "Karnataka"
+},
+"profiles": [
+{
+"network": "LinkedIn",
+"username": "manas-patel",
+"url": "https://www.linkedin.com/in/manas-patel/"
+},
+{
+"network": "GitHub",
+"username": "manas-patel",
+"url": "https://github.com/manas-patel"
+}
+]
+},
+"work": [
+{
+"name": "Atlassian",
+"position": "Senior Frontend Engineer",
+"url": "https://www.atlassian.com",
+"startDate": "2024-09-01",
+"endDate": null,
+"summary": "Core Cloud Platform & Enterprise UI Engineering",
+"highlights": [
+"Architecting critical frontend modules and shared platform components powering high-traffic enterprise workflows across Jira and Confluence ecosystems.",
+"Spearheading performance optimization audits targeting Core Web Vitals (LCP, INP, CLS), improving page responsiveness across distributed pods.",
+"Collaborating with product designers and backend architects on cross-cutting feature roadmaps and frontend system RFCs."
+]
+},
+{
+"name": "Apollo.io",
+"position": "Senior Frontend Engineer",
+"url": "https://www.apollo.io",
+"startDate": "2023-04-01",
+"endDate": "2024-09-01",
+"summary": "Frontend Platform & Developer Experience (DX)",
+"highlights": [
+"Implemented custom Webpack and SWC configurations resulting in a 20% reduction in local and CI build times.",
+"Streamlined GitHub Actions CI/CD pipelines, cutting deployment turnaround by 30% and accelerating release cycles across product pods.",
+"Reduced JavaScript bundle sizes by 25% through advanced tree-shaking, code-splitting, and dynamic imports, boosting runtime performance and retention.",
+"Led organization-wide migration from React 16.x to 17.x/18.x, unblocking modern ecosystem libraries and significantly enhancing DX.",
+"Engineered end-to-end automated testing infrastructure from scratch using Cypress, establishing standard testing practices."
+]
+},
+{
+"name": "Coinbase",
+"position": "Senior Software Engineer / Senior Frontend Engineer",
+"url": "https://www.coinbase.com",
+"startDate": "2022-04-01",
+"endDate": "2023-02-01",
+"summary": "Internal Tools / Automation & Machine Learning Platforms",
+"highlights": [
+"Spearheaded technical design and UI architecture of 'Bot Maker', a visual workflow automation platform that saved an estimated ~$10M annually in operational overhead.",
+"Architected and delivered internal web applications enabling Machine Learning and Data Science engineers to monitor and deploy production ML models, eliminating redundant manual workflows.",
+"Architected an AWS-backed graph database proof-of-concept (POC) to index and centralize enterprise-wide blockchain data pipelines for internal querying."
+]
+},
+{
+"name": "Walmart Global Tech India",
+"position": "Software Engineer III (SDE-3)",
+"url": "https://tech.walmart.com",
+"startDate": "2020-11-01",
+"endDate": "2022-04-01",
+"summary": "ASDA.com / E-Commerce & Retail Media Advertising",
+"highlights": [
+"Designed and implemented a Backend-For-Frontend (BFF) architecture using React.js, Node.js, and GraphQL to harmonize API contracts across web and mobile surfaces, reducing configuration bugs by 50%.",
+"Scaled ASDA.com's retail media advertising engine by executing complex ad placements with product managers, contributing to a ~20% increase in ad revenue.",
+"Engineered accessible, high-performance UI components conforming to strict e-commerce conversion and uptime SLAs."
+]
+},
+{
+"name": "Cisco Systems India Pvt. Ltd.",
+"position": "Software Engineer II (SDE-2)",
+"url": "https://www.cisco.com",
+"startDate": "2019-10-01",
+"endDate": "2020-11-01",
+"summary": "DNA Spaces / Cisco DNA-C Platform",
+"highlights": [
+"Delivered reusable UI plugins and widgets for Cisco DNA-C, a plugin-based micro-frontend architecture consumed by cross-functional engineering teams.",
+"Architected an interactive device tree visualization system utilizing React, HTML5 Canvas, and GoJS for complex network topology management.",
+"Boosted page load speeds by 30% through lazy loading, React PureComponents/memoization, asset bundling, and image sprite optimization.",
+"Maintained high code quality and test coverage using TDD practices and SonarQube quality gates, systematically reducing technical debt."
+]
+},
+{
+"name": "Tata Consultancy Services (TCS)",
+"position": "System Engineer",
+"url": "https://www.tcs.com",
+"startDate": "2016-08-01",
+"endDate": "2019-10-01",
+"summary": "Enterprise Web Solutions",
+"highlights": [
+"Engineered enterprise UI screens supporting complex, real-time editable data grids with Excel-like functionality.",
+"Implemented centralized state management architectures using Angular and NgRx for data-intensive client applications.",
+"Created reusable UI components and helper utilities in TypeScript/ES6 to enforce design consistency across modules.",
+"Promoted from Assistant System Engineer (2016–2018) to System Engineer (2018–2019) based on delivery excellence."
+]
+}
+],
+"education": [
+{
+"institution": "Orissa Engineering College (OEC), Bhubaneswar",
+"url": "",
+"area": "Engineering",
+"studyType": "Bachelor of Technology (B.Tech)",
+"startDate": "2012-08-01",
+"endDate": "2016-07-01",
+"score": "",
+"courses": []
+}
+],
+"certificates": [
+{
+"name": "Programming in HTML5 with JavaScript and CSS3",
+"date": "",
+"issuer": "Microsoft",
+"url": ""
+},
+{
+"name": "React Hooks Specialization",
+"date": "",
+"issuer": "Online Learning",
+"url": ""
+},
+{
+"name": "Angular 7: The Complete Guide",
+"date": "",
+"issuer": "Online Learning",
+"url": ""
+}
+],
+"skills": [
+{
+"name": "Languages",
+"level": "Senior",
+"keywords": [
+"TypeScript",
+"JavaScript (ES6+)",
+"HTML5",
+"CSS3",
+"Sass/Less",
+"Python",
+"SQL"
+]
+},
+{
+"name": "Frameworks & Libraries",
+"level": "Senior",
+"keywords": [
+"React.js",
+"Next.js",
+"Angular",
+"Redux",
+"Redux-Thunk",
+"NgRx",
+"GraphQL",
+"Apollo Client"
+]
+},
+{
+"name": "Architecture & Platforms",
+"level": "Senior",
+"keywords": [
+"Micro-Frontends",
+"Design Systems",
+"Single Page Applications (SPAs)",
+"Backend-for-Frontend (BFF)",
+"Web Performance (Core Web Vitals)",
+"Bundle Size Optimization"
+]
+},
+{
+"name": "Build, Tooling & Quality",
+"level": "Senior",
+"keywords": [
+"Webpack",
+"SWC",
+"Vite",
+"Babel",
+"Cypress",
+"Jest",
+"React Testing Library",
+"ESLint",
+"Stylelint",
+"SonarQube",
+"TDD"
+]
+},
+{
+"name": "DevOps & Cloud",
+"level": "Intermediate / Competent",
+"keywords": [
+"GitHub Actions",
+"CI/CD Pipelines",
+"Git",
+"Bitbucket",
+"Docker",
+"Kubernetes",
+"AWS (S3, CloudFront, Lambda basics)",
+"GCP basics"
+]
+}
+],
+"languages": [
+{
+"language": "English",
+"fluency": "Professional Working"
+},
+{
+"language": "Oriya",
+"fluency": "Native or Bilingual"
+},
+{
+"language": "Hindi",
+"fluency": "Full Professional"
+}
+]
+}
