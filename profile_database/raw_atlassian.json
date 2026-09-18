@@ -1,0 +1,28 @@
+{
+      "name": "Atlassian",
+      "position": "Senior Frontend Engineer (P50)",
+      "url": "https://www.atlassian.com",
+      "startDate": "2024-09",
+      "endDate": null,
+      "summary": "Leading frontend architecture and delivery for Jira Service Management (JSM) Status Pages, edge-rendered SSR surfaces, and incident communication platforms.",
+      "raw": "FY25H2 Senior Frontend Engineer (P50 level). Led the frontend architecture and GA delivery of JSM Status Pages across Jira Manage Portal, issue views, and public/private surfaces (163 enterprise tenants discovered, 48 created pages, 26 posted incidents). Authored the architectural DACI for StatusPage public dashboard integration, establishing the first public Tesseract SSR implementation with Varnish caching, CloudFront, and Bifrost to handle spike traffic without rebuild latency. Architected fail-closed auth/cache isolation for Private Status Pages using Edge authentication, SCIM group tokens, and user-context headers, rolling out to 5% GA. Delivered frontend flows for AI Suggest Stakeholders, reaching a ~61% suggestion-to-add rate across ~80 tenants (beating the 15-30% internal benchmark). Streamlined SafeRelease frontend pipeline configs from 93 to ~15 lines and upgraded Node to 20.15.1, resolving 10+ CVEs. Active participant in DoS/On-call rotations resolving P1 alerts, scaled architecture knowledge via IT-Ops enablement, and mentored interns.",
+      "highlights": [
+        "Spearheaded the end-to-end architecture and GA rollout of JSM Status Pages across Jira Manage Portal, issue views, and public/private SSR surfaces, scaling adoption to 163+ enterprise tenants.",
+        "Authored the architectural DACI for StatusPage rendering, establishing the company's first public Tesseract SSR implementation with Varnish caching, CloudFront, and Bifrost to eliminate rebuild latency during live incidents.",
+        "Architected fail-closed auth/cache isolation for Private Status Pages using Edge authentication, SCIM group tokens, and user-context headers, preventing private incident data exposure across public CDNs.",
+        "Built frontend integration flows for AI Suggest Stakeholders, reaching a ~61% suggestion-to-add rate across ~80 tenants (outperforming the 15–30% company baseline).",
+        "Streamlined Safe Release pipeline configurations by 84% (from 93 to ~15 lines) and modernized runtimes by upgrading Node to 20.15.1, resolving 10+ critical CVEs.",
+        "Active participant in DoS/On-call rotations resolving P1 live-site alerts; scaled cross-team architecture knowledge through IT-Ops enablement and technical mentorship."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tesseract SSR",
+        "Bifrost",
+        "Varnish Caching",
+        "CloudFront",
+        "Edge Auth",
+        "Spinnaker / SafeRelease",
+        "Node.js 20"
+      ]
+    }
